@@ -14,7 +14,7 @@ const SettingsPage = async () => {
         iconColor='text-gray-700'
         bgColor='bg-gray-700/10'
       ></Heading>
-      <div className='px-4 lg:px-8 pace-y-4'>
+      <div className='px-4 lg:px-8 space-y-4'>
         <div className='text-muted-foreground text-sm'>
           {isPro
             ? "You are currently on a Pro plan."
