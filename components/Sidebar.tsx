@@ -73,10 +73,13 @@ const Sidebar = ({ apiLimitCount = 0, isPro = false }: SidebarProps) => {
       <div className='px-3 py-2 flex-1'>
         <Link href='/dashboard' className='flex items-center pl-3 mb-14'>
           <div className='relative w-8 h-8 mr-4'>
-            <Image fill alt='Logo' src='/logo.png' />
+            <Image className='ml-2' fill alt='Logo' src='/mango.png' />
           </div>
-          <h1 className={cn("text-2xl font-bold", montserrat.className)}>
-            Genius
+          <h1 className={cn("text-2xl font-bold ", montserrat.className)}>
+            Mango{" "}
+            <span className='bg-gradient-to-r from-yellow-500 to-green-500 inline-block text-transparent bg-clip-text'>
+              AI
+            </span>
           </h1>
         </Link>
         <div className='space-y-1'>

@@ -4,28 +4,28 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 const Testimonials = [
   {
-    name: "Dan",
-    avatar: "D",
-    title: "Software Engineer",
-    description: "This is the best app ever!",
+    name: "Jessica Thomspson",
+    avatar: "J",
+    title: "Senior Software Engineer",
+    description: `"Mango AI is a true masterpiece. The chat functionality is so lifelike, it feels like talking to a human expert. And the code, photo, video, and music generation features have saved me countless hours."`,
   },
   {
-    name: "Dan",
-    avatar: "D",
-    title: "Software Engineer",
-    description: "This is the best app ever!",
+    name: "Brian Patel",
+    avatar: "B",
+    title: "Full Stack Developer",
+    description: `"I'm amazed at what this AI web app can do! The code generation is like having a coding genius at my fingertips."`,
   },
   {
-    name: "Dan",
-    avatar: "D",
-    title: "Software Engineer",
-    description: "This is the best app ever!",
+    name: "Maria Lopez",
+    avatar: "M",
+    title: "UI/UX Designer",
+    description: `"This AI web app is a dream come true for designers like me. The photo generation feature provides an endless source of inspiration, and the video generation tool helps me visualize concepts effortlessly."`,
   },
   {
-    name: "Dan",
+    name: "David Rodriguez",
     avatar: "D",
-    title: "Software Engineer",
-    description: "This is the best app ever!",
+    title: "Content Creator",
+    description: `"As a content creator, your AI web app has been a game-changer for me. I use the photo generation feature to create eye-catching visuals, and the video generation tool has boosted engagement on my social media channels. It's a creative powerhouse!"`,
   },
 ];
 

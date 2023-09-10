@@ -24,28 +24,28 @@ const tools = [
     label: "Music Generation",
     icon: Music,
     color: "text-emerald-500",
-    bgColor: "bg-emerald-500/1-",
+    bgColor: "bg-emerald-500/10",
     href: "/music",
   },
   {
     label: "Image Generation",
     icon: ImageIcon,
     color: "text-pink-700",
-    bgColor: "bg-pink-700/1-",
+    bgColor: "bg-pink-700/10",
     href: "/image",
   },
   {
     label: "Video Generation",
     icon: VideoIcon,
     color: "text-orange-700",
-    bgColor: "bg-emerald-700/1-",
+    bgColor: "bg-emerald-700/10",
     href: "/video",
   },
   {
     label: "Code Generation",
     icon: Code,
     color: "text-green-700",
-    bgColor: "bg-green-700/1-",
+    bgColor: "bg-green-700/10",
     href: "/code",
   },
 ];
@@ -56,10 +56,13 @@ const DashboardPage = () => {
     <div>
       <div className='mb-8 space-y-4'>
         <h2 className='text-2xl md:text-4xl font-bold text-center'>
-          Explore the power of AI
+          Explore the power of{" "}
+          <span className='bg-gradient-to-r from-yellow-500 to-green-500 inline-block text-transparent bg-clip-text '>
+            AI
+          </span>
         </h2>
         <p className='text-muted-foreground font-light text-sm md:text-lg text-center'>
-          Chat with the smartest AI - Experience the power of AI
+          Chat with the smartest AI - Experience innovative AI tools
         </p>
       </div>
       <div className='px-4 md:px-20 lg:px-32 space-y-4'>
