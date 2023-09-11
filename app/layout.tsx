@@ -5,6 +5,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import ModalProvider from "@/components/modal-provider";
 import ToasterProvider from "@/components/toaster-provider";
 import CrispProvider from "@/components/crisp-provider";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
+      <Head>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <html lang='en'>
         <CrispProvider />
         <body className={inter.className}>
