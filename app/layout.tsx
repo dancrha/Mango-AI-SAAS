@@ -22,7 +22,8 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <Head>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/images/favicon.ico' />
+        {/* <link rel='icon' href='/favicon-16x16.png?' /> */}
       </Head>
       <html lang='en'>
         <CrispProvider />

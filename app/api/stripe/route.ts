@@ -37,7 +37,7 @@ export async function GET() {
           price_data: {
             currency: "CAD",
             product_data: {
-              name: "Genius Pro",
+              name: "Mango AI Pro",
               description: "Unlimited AI Generations",
             },
             unit_amount: 2000,
